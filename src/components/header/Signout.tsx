@@ -20,7 +20,7 @@ const Signout = () => {
       variant="ghost"
       size="sm"
       onClick={handleLogout}
-      className="text-gray-600 hover:text-gray-900"
+      className="text-gray-600 hover:text-gray-900 cursor-pointer"
     >
       <LogOut className="h-4 w-4 mr-2" />
       Logout
