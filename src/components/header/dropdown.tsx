@@ -30,7 +30,7 @@ const Dropdown = ({ mockUser }: DropdownProps) => {
             </AvatarFallback>
           </Avatar>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56">
+        <DropdownMenuContent className="w-56 p-3">
           <Auditlogmodal>
             <History className="w-5 h-5" />
             Audit Trail
