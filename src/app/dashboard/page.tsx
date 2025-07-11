@@ -2,6 +2,12 @@ import React from "react";
 import Headers from "@/components/header/header";
 import { Sidebar } from "@/components/sidebar/Sidebar";
 import Maindashboard from "@/components/dashboard/maindashboard";
+import type { Metadata }  from "next";
+
+export const metadata: Metadata = {
+  title: "Admin Dashboard",
+  description: "Manage your car rental listings efficiently",
+};
 
 const page = () => {
   return (
