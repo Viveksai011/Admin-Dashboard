@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Remove the middleware from here - it should be in a separate middleware.ts file
 };
 
 export default nextConfig;
