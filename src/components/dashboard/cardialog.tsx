@@ -95,7 +95,7 @@ export default function CarDialog({
     <div className="flex items-center justify-center ">
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
-          <Button size="sm" variant="outline" className={className}>
+          <Button size="sm" variant="outline" className={className} aria-label={`Edit ${car.name}`}>
             {children}
           </Button>
         </DialogTrigger>
